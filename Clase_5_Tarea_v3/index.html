@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript/funciones.js"></script>
+    <title>Login Base de Datos</title>
+</head>
+<body>
+    <h1>Login</h1>
+    
+
+        <table align="center">
+            
+            <tr>
+                <td><label for="correo">Correo:</label></td>
+                <td><input type="text" id="txtCorreo" name="correo" ></td>
+            </tr>
+            <tr>
+                <td><label for="clave">Clave:</label></td>
+                <td><input type="text" name="clave" id="txtClave" ></td>
+            </tr>
+            <tr>
+                <td align="right" colspan="2"><input type="button" value="Login"  onclick="MostrarLogin()"></td>
+            </tr>
+            
+            
+            <tr>
+                <td align="right" colspan="2"><input type="button" value="Mostrar" i onclick="MostrarListado()"></td>
+            </tr>
+          
+            
+        </table>
+
+        <table align="center">
+            <tr>
+                <td><div id="divMostrar"></div></td>
+            </tr>
+        </table>
+
+    
+</body>
+</html>
